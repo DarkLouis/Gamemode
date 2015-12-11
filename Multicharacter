@@ -1,0 +1,19 @@
+#include "a_samp"
+#include "zcmd"
+
+enum pInfo
+{
+  ID,
+  Username[MAX_PLAYER_NAME],
+};
+new Player[MAX_PLAYERS][pInfo];
+
+enum aInfo
+{
+  ID,
+  Username[MAX_PLAYER_NAME],
+  Password[129],
+  Bannato,
+  Premium,
+};
+new Account[MAX_PLAYERS][aInfo];
